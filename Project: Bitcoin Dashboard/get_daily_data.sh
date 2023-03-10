@@ -1,0 +1,1 @@
+tail -n 288 prices.csv | cut -d ',' -f 1,2,4 > daily_prices.csv
